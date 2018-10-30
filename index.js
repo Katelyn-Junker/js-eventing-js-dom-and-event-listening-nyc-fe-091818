@@ -28,6 +28,6 @@ function onDivClick(event){
 }
 
 for(let div of divs){
-  div.addEventListener('click', )
+  div.addEventListener('click', onCLick)
 }
 
