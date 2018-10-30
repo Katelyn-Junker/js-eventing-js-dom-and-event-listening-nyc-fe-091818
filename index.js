@@ -1,7 +1,7 @@
 const main= document.querySelector('#main')
 
 function onClick(){
-  console.log('i was clicked whoa')
+  alert('i was clicked')
 }
 
 main.addEventListener('click',onClick)
