@@ -11,7 +11,7 @@ const input= document.querySelector('input')
 function onKeyDown(event){
   console.log(event)
   if (event.which=== 74){
-    alert('what the j')
+   event.preventDefault()
   
   }
 }
