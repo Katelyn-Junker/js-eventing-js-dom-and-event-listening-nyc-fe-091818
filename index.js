@@ -16,4 +16,7 @@ function onKeyDown(event){
   }
 }
 
-input.addEventListener('keydown', )
+input.addEventListener('keydown', onKeyDown)
+
+const divs= document.querySelectorAll('div')
+
